@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    background: linear-gradient(135deg, #6e7bff, #d79cfc); 
+        color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header {
+    margin-bottom: 40px;
+    background: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+}
+
+header h1 {
+    font-family: 'Lora', serif; 
+        font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-family: 'Merriweather', serif; 
+        font-size: 1.8rem;
+    color: #d79cfc; 
+}
+
+.personal-info, .education, .projects, .contact {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+}
+
+.personal-info:hover, .education:hover, .projects:hover, .contact:hover {
+    transform: scale(1.03); 
+}
+
+.personal-info h2, .education h2, .projects h2, .contact h3 {
+    font-family: 'Merriweather', serif; 
+        font-size: 1.8rem;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.personal-info p, .education p, .projects p {
+    font-family: 'Open Sans', sans-serif; 
+        font-size: 1.2rem;
+    color: #34495E;
+    margin-bottom: 10px;
+}
+
+
+.project {
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-family: 'Merriweather', serif; 
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.project h4 {
+    font-family: 'Merriweather', serif; 
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.1rem;
+    color: #34495E;
+}
+
+.contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #34495E; 
+}
+
+.contact strong {
+    font-family: 'Merriweather', serif;
+    color: #34495E; 
+}
+
+.contact a {
+    font-family: 'Open Sans', sans-serif;
+    color: #3498DB; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #34495E;
+}
+
+
+@media screen and (max-width: 992px) {
+    header h1 {
+        font-size: 2.8rem;
+    }
+
+    .personal-info, .education, .projects, .contact {
+        padding: 20px;
+    }
+
+    .project {
+        padding: 15px;
+    }
+
+    .project h4 {
+        font-size: 1.4rem;
+    }
+
+    .personal-info p, .education p, .projects p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .personal-info, .education, .projects, .contact {
+        padding: 15px;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    .project h4 {
+        font-size: 1.3rem;
+    }
+
+    .personal-info p, .education p, .projects p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .personal-info, .education, .projects, .contact {
+        padding: 10px;
+    }
+
+    .project {
+        padding: 8px;
+    }
+
+    .project h4 {
+        font-size: 1.2rem;
+    }
+
+    .personal-info p, .education p, .projects p {
+        font-size: 1rem;
+    }
+}
+
+    .personal-info p, .education p, .projects p {
+        font-size: 1.1rem;
+    }
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05); 
+}
