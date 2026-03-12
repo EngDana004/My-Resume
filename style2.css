@@ -79,7 +79,7 @@ h1, h2, h3 {
     transform: scale(1.03); 
 }
 
-.personal-info h2, .education h2, .projects h2,.skills h3, .experience h3, .contact h3 {
+.personal-info h2, .education h2, .projects h2,.skills h2, .experience h2, .contact h2 {
     font-family: 'Merriweather', serif; 
     font-size: 1.7rem;
     color: #2C3E50;
@@ -236,4 +236,5 @@ footer {
     }
 
 }
+
 
