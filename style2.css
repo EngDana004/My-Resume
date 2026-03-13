@@ -45,17 +45,10 @@ body {
     color: #5C3317;
     text-decoration: none;
     font-size: 17px;
-     margin-bottom: 40px;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 25px;
-    margin: 15px auto; 
-    width: 80%;  
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
 }
 
 .navbar-nav li a:hover {
-    color:#d79cfc;
+    color:#fff;
 }
 
 .navbar-nav li:hover {
