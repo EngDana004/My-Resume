@@ -30,7 +30,7 @@ body {
 .navbar-nav li {
     display: inline-block;
     margin-right: 20px;
-    background-color:#d79cfc; 
+    background-color:#fff; 
     border-radius: 5px; 
     padding: 5px 10px;
 
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-nav li:hover {
-    background-color: linear-gradient(135deg, #6e7bff, #d79cfc);
+    background-color: #6e7bff;
 }
 
 header {
