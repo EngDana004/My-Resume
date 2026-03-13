@@ -38,17 +38,17 @@ body {
 }
 
 .navbar-nav li a {
-    color:linear-gradient(135deg, #6e7bff, #d79cfc);
+    color: #6e7bff;
     text-decoration: none;
     font-size: 17px;
 }
 
 .navbar-nav li a:hover {
-    color:#ffb6c1;
+    color: #d79cfc;
 }
 
 .navbar-nav li:hover {
-    background-color: rgba(156, 170, 108, 0.6);
+    background-color: linear-gradient(135deg, #6e7bff, #d79cfc));
 }
 
 header {
