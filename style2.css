@@ -36,7 +36,7 @@ body {
 }
 
 .navbar-nav li a {
-    color: #5C3317;
+    color:linear-gradient(135deg, #6e7bff, #d79cfc);
     text-decoration: none;
     font-size: 17px;
 }
