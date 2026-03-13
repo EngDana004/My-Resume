@@ -23,6 +23,8 @@ body {
     width: 80%;  /* Adjust width as needed */
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Lora', serif; 
+    font-size: 18px;
 
 
 }
@@ -242,6 +244,7 @@ footer {
     }
 
 }
+
 
 
 
