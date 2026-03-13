@@ -30,7 +30,7 @@ body {
 .navbar-nav li {
     display: inline-block;
     margin-right: 20px;
-    background-color:#ffb6c1; 
+    background-color:#d79cfc; 
     border-radius: 5px; 
     padding: 5px 10px;
 
@@ -44,11 +44,11 @@ body {
 }
 
 .navbar-nav li a:hover {
-    color:#ffb6c1;
+    color:#d79cfc;
 }
 
 .navbar-nav li:hover {
-    background-color: rgba(156, 170, 108, 0.6);
+    background-color: linear-gradient(135deg, #6e7bff, #d79cfc);
 }
 
 header {
