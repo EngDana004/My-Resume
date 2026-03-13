@@ -19,8 +19,8 @@ body {
 .navbar {
     display: flex;
     padding: 25px;
-    margin: 15px auto;  /* Auto margin to center the element */
-    width: 80%;  /* Adjust width as needed */
+    margin: 15px auto; 
+    width: 80%;  
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     font-family: 'Lora', serif; 
@@ -48,8 +48,8 @@ header {
     margin-bottom: 40px;
     background: rgba(0, 0, 0, 0.6);
     padding: 25px;
-    margin: 15px auto;  /* Auto margin to center the element */
-    width: 80%;  /* Adjust width as needed */
+    margin: 15px auto; 
+    width: 80%;  
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
@@ -75,12 +75,12 @@ h1, h2, h3 {
 .personal-info, .education, .projects, .skills, .experience, .contact {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 25px;
-    margin: 15px auto;  /* Auto margin to center the element */
-    width: 80%;  /* Adjust width as needed */
+    margin: 15px auto; 
+    width: 80%; 
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    text-align: center; /* Center the text inside each section */
+    text-align: center;
 }
 
 .personal-info:hover, .education:hover, .projects:hover,.skills:hover, .experience:hover,.contact:hover {
@@ -244,6 +244,7 @@ footer {
     }
 
 }
+
 
 
 
