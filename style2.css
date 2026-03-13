@@ -30,7 +30,7 @@ body {
 .navbar-nav .nav-item {
     display: inline-block;
     margin-right: 20px;
-    background-color: #1A1A80;  /* أزرق غامق */
+    background-color: rgba(0, 0, 0, 0.1);  /* أزرق غامق */
     border-radius: 5px;
     padding: 5px 10px;
 }
