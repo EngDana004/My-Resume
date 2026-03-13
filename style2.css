@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-nav li:hover {
-    background-color: #6e7bff;
+    background-color: linear-gradient(135deg, #6e7bff, #d79cfc);
 }
 
 header {
