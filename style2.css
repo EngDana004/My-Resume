@@ -55,14 +55,15 @@ body {
 header h1 {
     font-family: 'Lora', serif;
     font-size: 3rem;
-    color: #fff;                        /* نص أبيض */
-    margin-bottom: 40px;
-    background: rgba(0, 0, 0, 0.6);
+    color: #fff;                        
+    background: rgba(0, 0, 0, 0.6);   /* الخلفية اللي تحبها */
     padding: 25px;
-    margin: 15px auto; 
-    width: 80%;  
+    width: 80%;                        /* نفس عرض الأقسام */
+    margin: 15px auto 40px auto;       /* يظل في الوسط ويفصل عن العناصر */
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;                     /* مهم عشان العرض يشتغل مثل الأقسام */
 }
 
 header h2 {
