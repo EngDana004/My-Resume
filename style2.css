@@ -47,11 +47,7 @@ body {
     color: #FF00FF;  /* موفي */
 }
 
-/* تغيير خلفية الـ li عند المرور عليه */
-/* تغيير خلفية الـ li عند المرور عليه */
-.navbar-nav .nav-item:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* أغمق شوي من الأساسي لتناسق أفضل */
-}
+
 
 header h1 {
     font-family: 'Lora', serif;
