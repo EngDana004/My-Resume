@@ -54,19 +54,22 @@ body {
 
 header {
     margin-bottom: 40px;
-    background: rgba(0, 0, 0, 0.6);
     padding: 25px;
     margin: 15px auto; 
     width: 80%;  
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    box-shadow: none; /* حذف أي ظل */
+    background: none;  /* حذف خلفية الهيدر */
 }
 
 header h1 {
-    font-family: 'Lora', serif; 
+    font-family: 'Lora', serif;
     font-size: 3rem;
-    color: #fff;
-    margin-bottom: 10px;
+    color: #fff;  /* لون النص */
+    background-color: rgba(0, 0, 0, 0.6); /* الخلفية مستقلة على H1 */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 header h2 {
