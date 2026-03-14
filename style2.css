@@ -52,16 +52,6 @@ body {
     background-color: #4B0082; /* أزرق غامق أفتح شوي للهوفر */
 }
 
-header {
-    margin-bottom: 40px;
-    padding: 25px;
-    margin: 15px auto; 
-    width: 80%;  
-    border-radius: 15px;
-    box-shadow: none; /* حذف أي ظل */
-    background: none;  /* حذف خلفية الهيدر */
-}
-
 header h1 {
     font-family: 'Lora', serif;
     font-size: 3rem;
