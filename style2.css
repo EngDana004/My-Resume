@@ -79,7 +79,7 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.personal-info, .education, .projects, .skills, .experience, .contact {
+.personal-info, .education, .projects, .contact {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 25px;
     margin: 15px auto; 
@@ -90,11 +90,11 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.personal-info:hover, .education:hover, .projects:hover,.skills:hover, .experience:hover,.contact:hover {
+.personal-info:hover, .education:hover, .projects:hover,.contact:hover {
     transform: scale(1.03); 
 }
 
-.personal-info h2, .education h2, .projects h2,.skills h2, .experience h2, .contact h2 {
+.personal-info h2, .education h2, .projects h2, .contact h2 {
     font-family: 'Merriweather', serif; 
     font-size: 1.7rem;
     color: #2C3E50;
@@ -102,28 +102,14 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-.personal-info p, .education p, .projects p, .skills p, .contact p {
+.personal-info p, .education p, .projects p,  .contact p {
     font-family: 'Open Sans', sans-serif; 
     font-size: 1.2rem;
     color: #34495E;
     margin-bottom: 10px;
 }
 
-#experience {
-    text-align: left; 
-        margin-left: auto;
-    margin-right: auto;
-    width: 80%; 
-}
 
-
-#experience p {
-    text-align: center;
-      font-family: 'Open Sans', sans-serif; 
-    font-size: 1.2rem;
-    color: #34495E;
-    margin-bottom: 10px; 
-}
 
 .project {
     margin-bottom: 20px;
@@ -251,8 +237,6 @@ footer {
     }
 
 }
-
-
 
 
 
