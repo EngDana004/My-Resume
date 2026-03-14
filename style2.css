@@ -66,12 +66,13 @@ header h1 {
     font-family: 'Lora', serif;
     font-size: 3rem;
     color: #fff;                        /* نص أبيض */
-    background-color: rgba(0, 0, 0, 0.6); /* خلفية أسود شفاف */
-    display: inline-block;               /* الخلفية تحيط بالنص فقط */
-    padding: 10px 20px;                  /* نفس padding H2/H3 */
-    border-radius: 8px;                  /* نفس حواف H2/H3 */
-    text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    margin: 15px auto; 
+    width: 80%;  
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);;
 }
 
 header h2 {
