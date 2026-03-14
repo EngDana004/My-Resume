@@ -42,9 +42,8 @@ body {
     font-size: 17px;
 }
 
-/* لون الرابط عند المرور عليه */
 .navbar-nav .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.8);   /* موفي */
+    color: #FF00FF;  /* موفي */
 }
 
 
