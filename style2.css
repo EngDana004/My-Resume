@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-/* تنسيق قائمة navbar */
+
 .navbar-nav {
     list-style-type: none;
     text-align: center;
@@ -23,33 +23,33 @@ body {
     padding: 0;
     width: 100%;
     justify-content: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
 }
 
-/* تنسيق عناصر الـ li */
+
 .navbar-nav .nav-item {
     display: inline-block;
     margin-right: 20px;
-    background-color: #1A1A80;  /* أزرق غامق */
+    background-color:rgba(0, 0, 0, 0.6);  
     border-radius: 5px;
     padding: 5px 10px;
 }
 
-/* تنسيق روابط الـ a داخل الـ li */
+
 .navbar-nav .nav-link {
-    color: #FFFFFF;  /* أبيض للنصوص */
+    color: #FFFFFF;  
     text-decoration: none;
     font-size: 17px;
 }
 
-/* لون الرابط عند المرور عليه */
+
 .navbar-nav .nav-link:hover {
-    color: #FF00FF;  /* موفي */
+    color: #FF00FF;  
 }
 
-/* تغيير خلفية الـ li عند المرور عليه */
+
 .navbar-nav .nav-item:hover {
-    background-color: #4B0082; /* أزرق غامق أفتح شوي للهوفر */
+    background-color: #4B0082; 
 }
 
 
@@ -58,14 +58,14 @@ header h1 {
     font-family: 'Lora', serif;
     font-size: 3rem;
     color: #fff;                        
-    background: rgba(0, 0, 0, 0.6);   /* الخلفية اللي تحبها */
+    background: rgba(0, 0, 0, 0.6);   
     padding: 25px;
-    width: 80%;                        /* نفس عرض الأقسام */
-    margin: 15px auto 40px auto;       /* يظل في الوسط ويفصل عن العناصر */
+    width: 80%;                        
+    margin: 15px auto 40px auto;       
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    display: block;                     /* مهم عشان العرض يشتغل مثل الأقسام */
+    display: block;                     
 }
 
 header h2 {
