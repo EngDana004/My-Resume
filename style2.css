@@ -1,10 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-family: 'Open Sans', sans-serif; 
@@ -15,9 +13,8 @@ body {
     text-align: center;
 }
 
-
 .navbar-nav {
-    list-style-type: none;
+    list-style: none;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -26,33 +23,27 @@ body {
     font-family: 'Lora', serif;
 }
 
-
 .navbar-nav .nav-item {
     display: inline-block;
     margin-right: 20px;
-    background-color:rgba(0, 0, 0, 0.6);  
+    background-color: rgba(0, 0, 0, 0.6);  
     border-radius: 5px;
     padding: 5px 10px;
 }
 
-
 .navbar-nav .nav-link {
-    color: #FFFFFF;  
+    color: #fff;  
     text-decoration: none;
     font-size: 20px;
 }
-
 
 .navbar-nav .nav-link:hover {
     color: #FF00FF;  
 }
 
-
 .navbar-nav .nav-item:hover {
     background-color: #4B0082; 
 }
-
-
 
 header h1 {
     font-family: 'Lora', serif;
@@ -74,7 +65,6 @@ header h2 {
     color: #d79cfc; 
 }
 
-
 h1, h2, h3 {
     text-align: center;
 }
@@ -90,7 +80,7 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.personal-info:hover, .education:hover, .projects:hover,.contact:hover {
+.personal-info:hover, .education:hover, .projects:hover, .contact:hover {
     transform: scale(1.03); 
 }
 
@@ -102,14 +92,12 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-.personal-info p, .education p, .projects p,  .contact p {
+.personal-info p, .education p, .projects p, .contact p {
     font-family: 'Open Sans', sans-serif; 
     font-size: 1.2rem;
     color: #34495E;
     margin-bottom: 10px;
 }
-
-
 
 .project {
     margin-bottom: 20px;
@@ -118,15 +106,12 @@ h1, h2, h3 {
     border-radius: 8px;
 }
 
-
-
 .project h3 {
     font-family: 'Merriweather', serif; 
     font-size: 1.5rem;
     color: #3498db;
     margin-bottom: 10px;
 }
-
 
 .contact a {
     font-family: 'Open Sans', sans-serif;
@@ -162,81 +147,27 @@ footer {
 }
 
 
-
 @media screen and (max-width: 992px) {
-
-    header h1 {
-        font-size: 2.8rem;
-    }
-
-    .personal-info, .education, .projects, .contact {
-        padding: 20px;
-    }
-
-    .project {
-        padding: 15px;
-    }
-
-    .project h4 {
-        font-size: 1.4rem;
-    }
-
-    .personal-info p, .education p, .projects p {
-        font-size: 1.2rem;
-    }
-
+    header h1 { font-size: 2.8rem; }
+    .personal-info, .education, .projects, .contact { padding: 20px; }
+    .project { padding: 15px; }
+    .personal-info p, .education p, .projects p { font-size: 1.2rem; }
 }
-
-
 
 @media screen and (max-width: 768px) {
-
-    header h1 {
-        font-size: 2.5rem;
-    }
-
-    .personal-info, .education, .projects, .contact {
-        padding: 15px;
-    }
-
-    .project {
-        padding: 10px;
-    }
-
-    .project h4 {
-        font-size: 1.3rem;
-    }
-
-    .personal-info p, .education p, .projects p {
-        font-size: 1.1rem;
-    }
-
+    header h1 { font-size: 2.5rem; }
+    .personal-info, .education, .projects, .contact { padding: 15px; }
+    .project { padding: 10px; }
+    .personal-info p, .education p, .projects p { font-size: 1.1rem; }
 }
-
 
 @media screen and (max-width: 576px) {
-
-    header h1 {
-        font-size: 2.2rem;
-    }
-
-    .personal-info, .education, .projects, .contact {
-        padding: 10px;
-    }
-
-    .project {
-        padding: 8px;
-    }
-
-    .project h4 {
-        font-size: 1.2rem;
-    }
-
-    .personal-info p, .education p, .projects p {
-        font-size: 1rem;
-    }
-
+    header h1 { font-size: 2.2rem; }
+    .personal-info, .education, .projects, .contact { padding: 10px; }
+    .project { padding: 8px; }
+    .personal-info p, .education p, .projects p { font-size: 1rem; }
 }
+
 
 
 
