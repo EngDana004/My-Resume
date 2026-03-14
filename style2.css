@@ -14,7 +14,6 @@ body {
     padding: 20px;
     text-align: center;
 }
-
 /* تنسيق قائمة navbar */
 .navbar-nav {
     list-style-type: none;
@@ -51,7 +50,6 @@ body {
 .navbar-nav .nav-item:hover {
     background-color: #4B0082; /* أزرق غامق أفتح شوي للهوفر */
 }
-
 
 
 
