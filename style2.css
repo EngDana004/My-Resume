@@ -44,7 +44,7 @@ body {
 
 /* لون الرابط عند المرور عليه */
 .navbar-nav .nav-link:hover {
-    color: #FF00FF;  /* موفي */
+    background-color: rgba(0, 0, 0, 0.8);   /* موفي */
 }
 
 
