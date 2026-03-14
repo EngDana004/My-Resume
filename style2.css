@@ -30,7 +30,7 @@ body {
 .navbar-nav .nav-item {
     display: inline-block;
     margin-right: 20px;
-    background-color:rgba(0, 0, 0, 0.6);  /* أزرق غامق */
+    background-color: #1A1A80;  /* أزرق غامق */
     border-radius: 5px;
     padding: 5px 10px;
 }
@@ -47,6 +47,10 @@ body {
     color: #FF00FF;  /* موفي */
 }
 
+/* تغيير خلفية الـ li عند المرور عليه */
+.navbar-nav .nav-item:hover {
+    background-color: #4B0082; /* أزرق غامق أفتح شوي للهوفر */
+}
 
 
 
